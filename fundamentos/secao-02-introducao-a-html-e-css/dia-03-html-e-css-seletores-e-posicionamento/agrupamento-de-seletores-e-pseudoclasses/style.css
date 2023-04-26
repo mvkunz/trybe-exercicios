@@ -1,0 +1,19 @@
+/* Crie um arquivo no mesmo diretório e nomeie-o de ‘style.css’.*/
+h1, p, ul {
+    text-align: center;
+}
+
+#list, ul {
+    list-style: none;
+    text-align: center;
+}
+
+/* A cor de fundo da sua lista mude quando o cursor estiver sobre o item */
+#google:hover, #linkedin:hover, #skyscanner:hover, .nao-ordenada:hover {
+    background-color: rgb(222, 22, 115);
+}
+
+/* A fonte do item mude quando ele for clicado */
+#list:active, ul:active {
+    font-family: 'Vina Sans', cursive;
+}
