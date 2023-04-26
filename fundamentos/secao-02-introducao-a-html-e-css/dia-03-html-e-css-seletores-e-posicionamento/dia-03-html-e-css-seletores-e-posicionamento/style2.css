@@ -2,13 +2,14 @@
     width: 200px;
     position: absolute;
     left: 100px;
+    top: 100px;
 }
   
   .goomba {
     width: 100px;
     position: absolute;
-    margin-top: 300px;
-    margin-left: 150px;
+    top: 400px;
+    left: 150px;
   }
   
   .baloon {
