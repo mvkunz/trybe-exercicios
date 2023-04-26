@@ -46,4 +46,30 @@ ul.languages li:nth-of-type(3){
     background-color: pink;
 }
 
+/* Bônus) Para cada link na lista de aliados da pessoa desenvolvedora, faça com que ao passar o mouse sobre cada um, o texto fique em negrito e assuma a cor de fonte “temática do site” */
+#developers li a:hover {
+    font-weight: 700;
+}
+
+#developers li a[href*="stackoverflow"]:hover {
+    color: orange;
+}
+
+#developers li a[href*="w3schools"]:hover {
+    color: green;
+}
+
+#developers li a[href*="mozilla"]:hover {
+    color: black;
+}
+
+#developers li a[href*="devdocs"]:hover {
+    color: yellow;
+}
+
+#developers li a[href*="trybe"]:hover {
+    color: green;
+}
+
+
 
