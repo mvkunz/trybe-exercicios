@@ -25,3 +25,9 @@
   .border {
     border: 5px solid black;
   }
+
+  /* Com a mentoria do Cadu para ajustar a box A e B que estavam separadas*/
+
+.caixa-a, .caixa-b {
+  margin: -2px;
+}
